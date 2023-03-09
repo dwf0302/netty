@@ -2,6 +2,7 @@ package cn.weifeng.chartroom.protocol;
 
 import cn.weifeng.chartroom.message.Message;
 import io.netty.buffer.ByteBuf;
+import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.MessageToMessageCodec;
 import lombok.extern.slf4j.Slf4j;
@@ -13,6 +14,7 @@ import java.io.ObjectOutputStream;
 import java.util.List;
 
 @Slf4j
+@ChannelHandler.Sharable
 public class MessageCodecSharable extends MessageToMessageCodec<ByteBuf, Message> {
 
     @Override
