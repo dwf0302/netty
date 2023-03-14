@@ -1,4 +1,4 @@
-package cn.weifeng.service;
+package cn.weifeng.chartroom.service;
 
 import cn.weifeng.chartroom.config.Config;
 

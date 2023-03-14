@@ -1,4 +1,4 @@
-package cn.weifeng.service;
+package cn.weifeng.chartroom.service;
 
 /**
  * 用户管理接口

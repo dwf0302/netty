@@ -1,4 +1,4 @@
-package cn.weifeng.service;
+package cn.weifeng.chartroom.service;
 
 public class HelloServiceImpl implements HelloService {
     @Override

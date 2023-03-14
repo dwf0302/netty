@@ -3,7 +3,7 @@ package cn.weifeng.chartroom.handler;
 import cn.weifeng.chartroom.message.LoginRequestMessage;
 import cn.weifeng.chartroom.message.LoginResponseMessage;
 import cn.weifeng.chartroom.session.SessionFactory;
-import cn.weifeng.service.UserServiceFactory;
+import cn.weifeng.chartroom.service.UserServiceFactory;
 import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;

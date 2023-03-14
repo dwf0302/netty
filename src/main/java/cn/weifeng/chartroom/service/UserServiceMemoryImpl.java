@@ -1,4 +1,4 @@
-package cn.weifeng.service;
+package cn.weifeng.chartroom.service;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
